@@ -1,0 +1,15 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sun Oct  2 13:03:05 2022
+
+@author: Aanal patel
+"""
+from arithmetic_arranger import arithmetic_arranger
+from unittest import main
+
+
+print(arithmetic_arranger([" 32 + 698", "3801 - 2", "45 + 43", "123 + 49"],True))
+
+
+# Run unit tests automatically
+main(module='test_module', exit=False)
